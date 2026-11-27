@@ -1,0 +1,13 @@
+quill offline speech recognition
+
+Runtime: sherpa-onnx 1.12.20, k2-fsa contributors, Apache License 2.0.
+https://github.com/k2-fsa/sherpa-onnx
+ONNX Runtime: Microsoft Corporation, MIT License.
+
+Model: SenseVoiceSmall, FunAudioLLM / Alibaba Group / FunASR contributors.
+https://huggingface.co/FunAudioLLM/SenseVoiceSmall
+https://github.com/FunAudioLLM/SenseVoice
+Model license: FunASR Model Open Source License Agreement (included).
+Converted model distribution: sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2025-09-09
+https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+The app does not fine-tune or claim authorship of the speech model.

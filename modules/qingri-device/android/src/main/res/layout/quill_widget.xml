@@ -1,0 +1,4 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="4dp">
+  <ImageView android:id="@+id/quill_widget_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="quill日程" />
+  <ImageButton android:id="@+id/quill_widget_mic" android:layout_width="40dp" android:layout_height="40dp" android:layout_gravity="bottom|end" android:layout_margin="6dp" android:padding="10dp" android:background="@drawable/quill_widget_mic_bg" android:src="@drawable/quill_widget_mic" android:contentDescription="语音快速添加，点击打开后长按说话" />
+</FrameLayout>

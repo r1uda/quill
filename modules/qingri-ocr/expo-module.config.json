@@ -1,0 +1,1 @@
+{"platforms":["apple","android"],"apple":{"modules":["QingriOcrModule"]},"android":{"modules":["qingri.ocr.QingriOcrModule"]}}

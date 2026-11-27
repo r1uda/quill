@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+**/build/
+dist/
+work/
+outputs/
+.env
+.env.*
+*.log
+*.keystore
+*.jks
+*.apk
+*.aab
+*.onnx
+**/jniLibs/
+modules/qingri-device/android/libs/
+__pycache__/

@@ -1,0 +1,7 @@
+<resources>
+  <string name="quill_month_label">quill 月历与日程 4×4</string>
+  <string name="quill_today_label">quill 今日安排 4×2</string>
+  <string name="quill_next_label">quill 下一件事 2×2</string>
+  <string name="quill_compact_label">quill 轻巧日程 1×2</string>
+  <string name="quill_widget_description">查看安排；点击加号快速添加，按住说话时右滑确认、左滑修改。</string>
+</resources>

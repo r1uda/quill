@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "quill",
+    "slug": "qingri-calendar",
+    "version": "0.1.5",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.qingri.calendar"
+    },
+    "android": {
+      "versionCode": 6,
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.qingri.calendar",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/branding/quill-adaptive.png",
+        "backgroundColor": "#bed3fa"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "quill · 你的日程",
+      "favicon": "./assets/branding/quill-icon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "选择日程图片或自定义日历背景",
+          "cameraPermission": "拍摄日程图片",
+          "microphonePermission": "长按快速添加时使用麦克风"
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "长按快速添加时使用麦克风",
+          "speechRecognitionPermission": "把说出的日程转成文字"
+        }
+      ]
+    ],
+    "icon": "./assets/branding/quill-icon.png",
+    "scheme": "quill"
+  }
+}
